@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.bitConsulting.TestNatours
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.862 s <<< FAILURE! - in org.bitConsulting.TestNatours
+org.bitConsulting.TestNatours.getAllTours  Time elapsed: 2.66 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at org.bitConsulting.TestNatours.getAllTours(TestNatours.java:26)
+
+org.bitConsulting.TestNatours.getTourById  Time elapsed: 0.504 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at org.bitConsulting.TestNatours.getTourById(TestNatours.java:44)
+
